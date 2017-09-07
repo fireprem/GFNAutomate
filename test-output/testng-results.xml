@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43961" started-at="2017-09-07T05:32:20Z" finished-at="2017-09-07T05:33:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43961" started-at="2017-09-07T05:32:20Z" finished-at="2017-09-07T05:33:04Z">
+      <class name="testCase.CreateAccount">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testCase.CreateAccount@20deea7f]" name="startReport" is-config="true" duration-ms="204" started-at="2017-09-07T11:02:20Z" finished-at="2017-09-07T11:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="getdata()[pri:0, instance:testCase.CreateAccount@20deea7f]" name="getdata" is-config="true" duration-ms="391" started-at="2017-09-07T11:02:20Z" finished-at="2017-09-07T11:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method status="PASS" signature="cAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.CreateAccount@20deea7f]" name="cAccount" duration-ms="43542" started-at="2017-09-07T11:02:21Z" data-provider="CreateAccountData" finished-at="2017-09-07T11:03:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Corner]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Terminator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[412.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cAccount -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testCase.CreateAccount@20deea7f]" name="stopReport" is-config="true" duration-ms="197" started-at="2017-09-07T11:03:04Z" finished-at="2017-09-07T11:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testCase.CreateAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
